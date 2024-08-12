@@ -41,18 +41,8 @@ defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 # Display date, day, and time in the menu bar
 defaults write com.apple.menuextra.clock DateFormat -string 'EEE d MMM HH:mm'
 
-
-# Increase keyboard initial delay
-defaults write -g InitialKeyRepeat -int 10
-
-# Increase keyboard repeat rate
-defaults write -g KeyRepeat -int 1
-
 # Increase mouse speed
 defaults write -g com.apple.mouse.scaling 1.5
-
-# Use the Fn key as a standard function key
-defaults write -g com.apple.keyboard.fnState -bool true
 
 # Increase trackpad speed
 defaults write -g com.apple.trackpad.scaling 3
@@ -60,7 +50,8 @@ defaults write -g com.apple.trackpad.scaling 3
 # Show files with all extensions
 defaults write -g AppleShowAllExtensions -bool true
 
-
+# Enable key repeat when holding down a key
+defaults write -g ApplePressAndHoldEnabled -bool false
 
 for app in "Dock" \
 	"Finder" \

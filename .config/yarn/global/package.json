@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "create-vite": "^4.4.0",
+    "git-cz": "^4.9.0"
+  }
+}
