@@ -24,7 +24,8 @@ done
 # .config ディレクトリのシンボリックリンクを作成
 [ -e ~/.config ] || ln -snfv "$ROOT_DIR"/.config ~
 
-[ -e ~/.gitconfig.local ] || cp "$ROOT_DIR"/.gitconfig.local.template ~/.gitconfig.local
+[ -e ~/.gitcignore_global ] || ln -snfv "$ROOT_DIR"/.bin/.gitcignore_global ~/.gitcignore_global
+[ -e ~/.gitconfig.local ] || cp "$ROOT_DIR"/.bin/.gitconfig.local.template ~/.gitconfig.local
 
 cat << END
 
