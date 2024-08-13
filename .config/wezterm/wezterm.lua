@@ -11,7 +11,7 @@ if wezterm.config_builder then
 end
 
 -- colors
-config.color_scheme = "nord"
+config.color_scheme = 'Spacedust (Gogh)'
 -- font
 config.font_size = 13.0
 -- Disable tab bar
@@ -20,7 +20,6 @@ config.hide_tab_bar_if_only_one_tab = true
 -- Set window Looks
 --- Opacity
 config.window_background_opacity = 0.8
-config.text_background_opacity = 0.8
 --- Padding
 config.window_padding = {
 	left = 0,
