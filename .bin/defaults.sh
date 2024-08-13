@@ -33,7 +33,7 @@ defaults write com.apple.finder ShowTabView -bool true
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 # Disable live conversion
-defaults write com.apple.inputmethod.Kotoeri JIMPrefLiveConversionKey -bool false
+# defaults write com.apple.inputmethod.Kotoeri JIMPrefLiveConversionKey -bool false
 
 # Display battery level in the menu bar
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"

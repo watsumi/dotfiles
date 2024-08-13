@@ -17,5 +17,3 @@ function install_powerline_precmd() {
 if [ "$TERM" != "linux" -a -x "$(command -v powerline-shell)" ]; then
     install_powerline_precmd
 fi
-
-export PATH="/opt/homebrew/sbin:$PATH"
