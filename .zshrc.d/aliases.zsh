@@ -23,6 +23,12 @@ gpos() {
   git pull origin "$current_branch"
 }
 
+alias d="docker"
+alias dc="docker compose"
+alias dcb="docker compose build"
+alias dcd="docker compose down"
+alias dcud='docker compose up -d'
+
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
