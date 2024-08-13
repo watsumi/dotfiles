@@ -12,6 +12,8 @@ alias glo="git log --oneline"
 alias gst="git status"
 alias gsw="git switch"
 alias gswc="git switch -c"
+alias gf="git fetch"
+alias gfp="git fetch --prune"
 alias lg='lazygit'
 gitc() {
   git commit -am "$1"
