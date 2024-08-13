@@ -12,6 +12,7 @@ alias glo="git log --oneline"
 alias gst="git status"
 alias gsw="git switch"
 alias gswc="git switch -c"
+alias lg='lazygit'
 gitc() {
   git commit -am "$1"
 }
@@ -20,9 +21,6 @@ gpos() {
   git pull origin "$current_branch"
 }
 
-alias ll='ls -lF'
-alias la='ls -lAF'
-alias ls="ls -G"
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
@@ -33,3 +31,14 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 
 alias vim='nvim'
+
+alias ei="eza --icons --git"
+alias ea="eza -a --icons --git"
+alias ee="eza -aahl --icons --git"
+alias et="eza -T -L 3 -a -I 'node_modules|.git|.cache' --icons"
+alias eta="eza -T -a -I 'node_modules|.git|.cache' --color=always --icons | less -r"
+alias ls=ei
+alias la=ea
+alias ll=ee
+alias lt=et
+alias lta=eta
