@@ -6,7 +6,7 @@ export HISTSIZE=1000
 export SAVEHIST=100000
 export HISTFILESIZE=100000
 # 重複を記録しない
-setopt hist_ignore_dups
+# setopt hist_ignore_dups
 # 開始と終了を記録
 setopt EXTENDED_HISTORY
 # ヒストリに追加されるコマンド行が古いものと同じなら古いものを削除
