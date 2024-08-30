@@ -6,7 +6,9 @@
     "git",
     "hg",
     "jobs",
-    "root"
+    "root",
+    "aws_profile",
+    "time"
   ],
   "common": {
     "term_truecolor": false
