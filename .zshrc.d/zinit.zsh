@@ -39,8 +39,3 @@ zinit light zsh-users/zsh-completions
 zinit light zdharma/history-search-multi-word
 # pecoを便利に扱えるanyframe
 zinit light mollifier/anyframe
-# asdf
-zinit light asdf-vm/asdf
-# asdf 保管機能
-fpath=(${ASDF_DIR}/completions $fpath)
-autoload -Uz compinit && compinit
