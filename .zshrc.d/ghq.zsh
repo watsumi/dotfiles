@@ -11,3 +11,4 @@ alias ghqs="peco-src"
 alias l='cd $(ghq list --full-path | peco)'
 alias b='hub browse $(ghq list | peco | cut -d "/" -f 2,3)'
 alias v='code $(ghq list --full-path | peco)'
+alias c='cursor $(ghq list --full-path | peco)'
