@@ -27,6 +27,7 @@ alias d="docker"
 alias dc="docker compose"
 alias dcb="docker compose build"
 alias dcd="docker compose down"
+alias dcu='docker compose up'
 alias dcud='docker compose up -d'
 
 alias rm='rm -i'
