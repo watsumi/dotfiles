@@ -1,0 +1,14 @@
+{
+    "user": {
+        "id_user": "0f58cd81-8afc-4bde-b5ea-6f5201a2eea7",
+        "email": "anon",
+        "username": "anon",
+        "name": null,
+        "email_verified": false,
+        "is_active": true,
+        "is_machine": true,
+        "user_data": null
+    },
+    "active_ws_dir": null,
+    "ws_config_map": {}
+}
