@@ -14,6 +14,11 @@
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
+  "vim.useSystemClipboard": true,
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
+  "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/true",
+  "vim.autoSwitchInputMethod.switchIMCmd": "/opt/homebrew/bin/im-select {im}",
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
