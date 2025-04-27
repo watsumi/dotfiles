@@ -51,6 +51,3 @@ alias la=ea
 alias ll=ee
 alias lt=et
 alias lta=eta
-
-# esc を <C-[> にマッピング
-alias esc='printf "\033"'
