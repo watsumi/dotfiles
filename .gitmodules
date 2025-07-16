@@ -1,3 +1,0 @@
-[submodule ".config/brewfile/watsumi_Brewfile"]
-	path = .config/brewfile/watsumi_Brewfile
-	url = git@github.com:watsumi/Brewfile.git
